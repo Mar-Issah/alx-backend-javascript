@@ -10,3 +10,4 @@ ALX_Africa | Holberton school specialization programme
 
 - 0x00-ES6_basic
 - 0x01-ES6_promise
+- 0x02-ES6_classes
