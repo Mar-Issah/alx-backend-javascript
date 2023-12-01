@@ -5,7 +5,7 @@ export default class Building {
   /**
    * Creates a new Building instance.
    *
-   * @param {String} sqft - Square feet of the building.
+   * @param {Number} sqft - Square feet of the building.
    */
   constructor(sqft) {
     this.sqft = sqft;
