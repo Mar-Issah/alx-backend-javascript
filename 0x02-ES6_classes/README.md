@@ -1,8 +1,7 @@
-## Projects Objective
+## Project Objective
 
-- Promises (how, why, and what)
-  -How to use the then, resolve, catch methods
-- How to use every method of the Promise object
-- Throw / Try
-- The await operator
-- How to use an async function
+- How to define a Class
+- How to add methods to a class
+- Why and how to add a static method to a class
+- How to extend a class from another
+- Metaprogramming and symbols
