@@ -1,5 +1,5 @@
 /**
- * Represents a lass HolbertonCourse.
+ * Represents a class HolbertonCourse.
  */
 export default class HolbertonCourse {
   /**
@@ -10,9 +10,9 @@ export default class HolbertonCourse {
    * @param {String[]} students - The names of students.
    */
   constructor(name, length, students) {
-    this._name = name;
-    this._length = length;
-    this._students = students;
+    this.name = name;
+    this.length = length;
+    this.students = students;
   }
 
   /**
