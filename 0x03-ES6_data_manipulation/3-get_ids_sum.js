@@ -1,5 +1,6 @@
 /**
  * Returns the sum of ids of a list of students.
+ * @function
  * @param {{id: Number, firstName: String, location: String
  * }[]} students - The list of students.
  * @returns {Number}

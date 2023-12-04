@@ -1,5 +1,6 @@
 /**
  * Retrieves students based on given city.
+ * @function
  * @param {{
  *   id: Number,
  *   firstName: String,

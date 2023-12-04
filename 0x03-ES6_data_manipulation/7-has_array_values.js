@@ -1,5 +1,6 @@
 /**
  * Checks if a set contains each el in array.
+ * @function
  * @param {Set} set - The set.
  * @param {*} array - The array.
  * @returns {Boolean}

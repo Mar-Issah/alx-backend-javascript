@@ -1,5 +1,6 @@
 /**
  * Filter the grades of a list of students based on given city.
+ * @function
  * @param {{id: Number, firstName: String, location: String}
  * []} students - The list of students.
  * @param {*} city - The city of students.
