@@ -6,7 +6,8 @@
  */
 export default function getStudentIdsSum(students) {
   if (students instanceof Array) {
-    return students.reduce((accumulator, currentValue) => accumulator.id || accumulator + currentValue.id, 0);
+    const reducerFunc = (acc, currValue) => acc.id || acc + currValue.id;
+    return students.reduce(reducerFunc, 0);
   }
   return 0;
 }
