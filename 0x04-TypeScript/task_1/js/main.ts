@@ -79,7 +79,7 @@ export const studentTable = (students: Student[]): void => {
 };
 
 studentTable(studentsList);
-const styleElement = document.createElement('style');
-styleElement.innerHTML = styleSheet;
-document.head.insertAdjacentElement('beforeend', styleElement);
+const styleSheetElement = document.createElement('style');
+styleSheetElement.innerHTML = styleSheet;
+document.head.insertAdjacentElement('beforeend', styleSheetElement);
 document.title = 'Task 0';
