@@ -79,6 +79,13 @@ export function executeWork(employee: Director | Teacher) {
 
 export type Subjects = 'Math' | 'History';
 
+/**
+ * Returns the subject of the day
+ * @function.
+ * @param {Subjects} todayClass - The subject  of the day.
+ * @returns {string} Returns a string
+ *
+ */
 export function teachClass(todayClass: Subjects): string {
   if (todayClass === 'Math') {
     return 'Teaching Math';
