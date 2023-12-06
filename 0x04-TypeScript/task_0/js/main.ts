@@ -17,7 +17,7 @@ const secondStudent: Student = {
   location: 'Accra, Ghana',
 };
 
-const studentsList: Array<Student> = [firstStudent, secondStudent];
+const studentsList: Student[] = [firstStudent, secondStudent];
 const styleSheet = `
   html {
     margin: 0;
@@ -52,11 +52,12 @@ const styleSheet = `
 `;
 
 /**
- * Displays information about students in a table.
- * @param students The list of students to display.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * Displays info about students in a table.
+ * @function
+ * @param students student array.
+ *
  */
-export const displayStudents = (students: Array<Student>): void => {
+export const studentTable = (students: Student[]): void => {
   const table = document.createElement('table');
   const tableHead = document.createElement('thead');
   const headRow = document.createElement('tr');
@@ -77,7 +78,7 @@ export const displayStudents = (students: Array<Student>): void => {
   document.body.insertAdjacentElement('beforeend', table);
 };
 
-displayStudents(studentsList);
+studentTable(studentsList);
 const styleSheetElement = document.createElement('style');
 styleSheetElement.innerHTML = styleSheet;
 document.head.insertAdjacentElement('beforeend', styleSheetElement);
