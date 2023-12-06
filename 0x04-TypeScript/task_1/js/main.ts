@@ -7,9 +7,9 @@ export interface Teacher {
   [key: string]: any; // Allow any additional attributes
 }
 
-// export interface Directors extends Teacher {
-//   numberOfReports: number;
-// }
+export interface Directors extends Teacher {
+  numberOfReports: number;
+}
 
 // export interface printTeacherFunction {
 //   (firstName: string, lastName: string): string;
