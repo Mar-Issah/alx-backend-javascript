@@ -52,10 +52,24 @@ export function createEmployee(salary: number | string): Director | Teacher {
   return new Director();
 }
 
+/**
+ *
+ * @function.
+ * @param {Director | Teacher} employee - The employee.
+ * @returns {Director } Returns an instance of Director
+ *
+ */
 export function isDirector(employee: Director | Teacher) {
   return employee instanceof Director;
 }
 
+/**
+ * Returns work tasks based on employee
+ * @function.
+ * @param {Director | Teacher} employee - The salary of the employee.
+ * @returns {string} Returns an string
+ *
+ */
 export function executeWork(employee: Director | Teacher) {
   if (isDirector(employee)) {
     return (employee as Director).workDirectorTasks();
