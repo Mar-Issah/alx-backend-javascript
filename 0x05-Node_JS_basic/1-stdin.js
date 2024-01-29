@@ -5,10 +5,9 @@ process.stdin.on('readable', () => {
 
   if (name.length > 0) {
     process.stdout.write(`Your name is: ${name}`);
-    process.exit();
   }
 });
 
-process.stdin.on('exit', () => {
+process.stdin.on('end', () => {
   process.stdout.write('This important software is now closing\n');
 });
