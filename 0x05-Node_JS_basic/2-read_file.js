@@ -15,7 +15,7 @@ function countStudents(path) {
     }
     const students = data.map((line) => line.split(','));
 
-    console.log(`Number of students: ${students.length - 1}`);
+    console.log(`Number of students: ${students.slice(1).length - 1}`);
 
     const fields = students[0];
     const fieldIndex = fields.indexOf('field');
