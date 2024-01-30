@@ -32,7 +32,7 @@ class StudentsController {
               `Number of students in ${field}: ${group.length}.`,
               'List:',
               group.map((student) => student.firstname).join(', '),
-            ].join(' ')
+            ].join(' '),
           );
         }
         response.status(200).send(responseParts.join('\n'));
