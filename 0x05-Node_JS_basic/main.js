@@ -1,6 +1,6 @@
-const countStudents = require('./2-read_file.js');
+const countStudents = require('./3-read_file_async');
 
-countStudents('nope.csv');
+// countStudents('nope.csv')
 //   .then(() => {
 //     console.log('Done!');
 //   })
@@ -8,4 +8,11 @@ countStudents('nope.csv');
 //     console.log(error);
 //   });
 
-//countStudents('database.csv');
+countStudents('database.csv')
+  .then(() => {
+    console.log('Done!');
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+console.log('After!');
