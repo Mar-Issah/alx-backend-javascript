@@ -7,11 +7,11 @@ describe('calculateNumber', () => {
   });
 
   it("rounds down b's floating point fractional number", () => {
-    assert.strictEqual(calculateNumber(2.0, 3.8), 5);
+    assert.strictEqual(calculateNumber(2.0, 3.8), 6);
   });
 
   it("rounds down a and b's floating point fractional numbers", () => {
-    assert.strictEqual(calculateNumber(2.6, 3.9), 6);
+    assert.strictEqual(calculateNumber(2.6, 3.9), 7);
   });
 
   it("rounds down a's floating point fractional number", () => {
@@ -19,7 +19,7 @@ describe('calculateNumber', () => {
   });
 
   it("rounds up b's floating point fractional numbers", () => {
-    assert.strictEqual(calculateNumber(4.5, 3.5), 8);
+    assert.strictEqual(calculateNumber(4.5, 3.5), 9);
   });
 
   it("rounds up a and b's floating point fractional numbers", () => {
