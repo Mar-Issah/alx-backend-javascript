@@ -14,3 +14,4 @@ ALX_Africa | Holberton school specialization programme
 - 0x03-ES6_data_manipulation
 - 0x04-TypeScript
 - 0x05-Node_JS_basic
+- 0x06-unittests_in_js
